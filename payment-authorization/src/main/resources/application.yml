@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: payment-authorization
+logging:
+  level:
+    root: DEBUG
+server:
+  port: 8082
+token-issuance:
+  service:
+    url: http://localhost:8080

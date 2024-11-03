@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: end-user
+logging:
+  level:
+    root: DEBUG
+server:
+  port: 8083
+payment:
+  service:
+    url: http://localhost:8081
